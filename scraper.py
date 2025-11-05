@@ -72,6 +72,6 @@ def save_to_csv():
 
 # Puting it all to the csv file
     pd.DataFrame(books_csv).to_csv("books.csv", index=False)
-    print("Saved... :D")
+    print("Saved...")
 
 get_page(10)
